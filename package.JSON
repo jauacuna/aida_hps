@@ -1,0 +1,18 @@
+{
+  "name": "healthbot-aida",
+  "version": "1.0.0",
+  "description": "A Patient consultation Chatbot that can assess health problems",
+  "main": "server.js",
+  "license": "MIT",
+  "repository": "https://github.com/jauacuna/aida.git",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  },
+  "scripts": {
+    "prestart": "npm install"
+  }
+}
