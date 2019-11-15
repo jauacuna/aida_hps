@@ -1,4 +1,4 @@
-function requesttBot(loc) {
+function requestChatBot(loc) {
     const params = BotChat.queryParams(location.search);
     const oReq = new XMLHttpRequest();
     oReq.addEventListener("load", initBotConversation);
@@ -49,7 +49,7 @@ function sendUserLocation(botConnection, user) {
     });
 }
 
-function initConversation() {
+function initBotConversation() {
     if (this.status >= 400) {
         alert(this.statusText);
         return;
