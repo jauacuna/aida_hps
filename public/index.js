@@ -1,4 +1,4 @@
-function requestChatBot(loc) {
+function requesttBot(loc) {
     const params = BotChat.queryParams(location.search);
     const oReq = new XMLHttpRequest();
     oReq.addEventListener("load", initBotConversation);
