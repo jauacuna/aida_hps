@@ -49,7 +49,7 @@ function sendUserLocation(botConnection, user) {
     });
 }
 
-function initBotConversation() {
+function initConversation() {
     if (this.status >= 400) {
         alert(this.statusText);
         return;
